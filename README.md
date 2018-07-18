@@ -51,6 +51,11 @@ all junctions to create a superfile for calculation of splice site usage (3SS_us
 stepwise: starting with two .BED files, a new .BED file will be generated.  This file can be used as
 one of the two new inputs for the next round of summarizing. 
 
+superfile_accept.py
+
+A script to set the minimum requirements with respect to jucntion depth and anchor size, before selecting
+all junction sthat fullfill these requirements.  Useful to eliminate junctions that occur only in a single
+sample or have dubious anchors that potentiall align on other positions. 
 
 
 
