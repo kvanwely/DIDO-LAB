@@ -17,3 +17,22 @@ FPKM_per_gene.py
 A script to summarize FPKM for all exon sin a gene and use the same expression value 
 for all exons in that gene. Requires exon with FPKM expression values and a gene map
 in .BED format
+
+less_skip_total.py
+
+Takes the group of exons undergoing less skipping as compared to the control situation, 
+and calculates the base composition for each position (including upsteram and downstream
+regions). 
+
+more_skip_total.py
+
+As for the previous script, but uses the exons that are skipped more as compared to controls.
+
+less_skip_motif.py
+
+Takes the group of exons undergoing lee skipping as compared to the control situation,
+and calculates the frequency of K-mers in upstream, exonic, and downstream regions.
+
+more_skip_motif.py
+
+As for the previous script, but uses the exons that are skipped more as compared to controls. 
