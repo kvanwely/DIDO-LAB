@@ -57,5 +57,8 @@ A script to set the minimum requirements with respect to jucntion depth and anch
 all junction sthat fullfill these requirements.  Useful to eliminate junctions that occur only in a single
 sample or have dubious anchors that potentiall align on other positions. 
 
+3SS_usage.py
 
-
+A script to calculate relative usage of alternative 3prime splice sites (normalized with respect to a common 
+5prime splice site) from a juction superfile, and junction file input. The second input can be normalized 
+beforehand to correct for expression diffenrences (in FPKM). 
