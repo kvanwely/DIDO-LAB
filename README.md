@@ -13,7 +13,7 @@ exon_skip.py
 A script that divides the expression of an exon (e.g. in FPKM) by the number of times
 that exon is skipped.
 
-FPKM_per_gene.py
+exon_to_gene.py
 
 A script to summarize FPKM for all exon sin a gene and use the same expression value 
 for all exons in that gene. Requires exon with FPKM expression values and a gene map
