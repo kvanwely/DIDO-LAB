@@ -1,5 +1,6 @@
 This repository contains a collection of python scripts used to quantify exon skipping.
-Scripts were developed for Python 2.7
+Scripts were developed for Python 2.7. Scripts are provides "as is", without warranty 
+or responsability of the author whatsoever. Scripts are proved under a GPL V3.0 license.
 
 Individual scripts in this repository:
 
