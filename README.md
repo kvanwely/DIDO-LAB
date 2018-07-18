@@ -36,3 +36,11 @@ and calculates the frequency of K-mers in upstream, exonic, and downstream regio
 more_skip_motif.py
 
 As for the previous script, but uses the exons that are skipped more as compared to controls. 
+
+get_total_rnd2.py
+
+Used to calculate base composition for a random subset of exons (from a .BED input).
+
+get_motif_rnd2.py
+
+Used to calculate the frequency of K-mer motifs in a random subset of exons (from a .BED input). 
