@@ -98,9 +98,10 @@ def get_fasta (num_hits,min_anchor,juncs_file,out_file):
         junc1_strand = junction_1[5]
         junc1_strand = junc1_strand[0]
         
-        overhangs1_total = overhang1_left + overhang1_right
+        overhang1_left_val = int(overhang1_left)
+        overhang1_right_val = int(overhang1_right)
                     
-        if junc1_depth_val >= num_hits and overhang1_left >= min_anchor and overhang1_right >= min_anchor:
+        if junc1_depth_val >= num_hits and overhang1_left_val >= min_anchor and overhang1_right_val >= min_anchor:
             print >>outfile, junc1
         
         print >>sys.stderr, junc1_chrom + "      " + junc1_left + "       " + junc1_right + "                 \r",
