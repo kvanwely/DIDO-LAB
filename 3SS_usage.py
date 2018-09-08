@@ -1,5 +1,5 @@
 
-#this script will take a jucntion comparison file as input, find singificntly altered 3SS, and calculate their parameters
+#this script will take a junction comparison file as input, find singificantly altered 3SS, and calculate their parameters
 #three control sets and three test sets are expected in columns
 #this script uses the Yeo & Burge data vor 3'SS strength calculation, adapted from https://github.com/kepbod/maxentpy
 #the associated matrix files are required and can be downloaded from https://github.com/kepbod/maxentpy/tree/master/maxentpy/data
